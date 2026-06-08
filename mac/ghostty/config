@@ -1,0 +1,21 @@
+# This binds Control + Enter to toggle or open a new Ghostty window globally
+keybind = global:ctrl+enter=new_window
+theme = One Half Dark
+cursor-style = block
+shell-integration-features = no-cursor
+
+# Horizontal padding (left and right)
+window-padding-x = 10
+
+# Vertical padding (top and bottom)
+window-padding-y = 10
+
+# Balance padding ensures the content area remains perfectly centered
+window-padding-balance = true
+
+# Transparency level (0.0 is invisible, 1.0 is solid)
+background-opacity = 0.85
+
+# Frosted glass blur effect behind the text
+background-blur-radius = 20
+shell-integration-features = ssh-terminfo,ssh-env
